@@ -25,10 +25,12 @@ mv kafka_2.12-2.2.0 kafka
 - Create a topic named streams-plaintext-input.
 - Create a topic named streams-wordcount-output.
 - Open the Kafka console producer and write the following messages:
+
   kafka streams is great
   kafka processes messages in real time
   kafka helps real information streams
 - Open a Kafka console consumer to the output topic to read messages from the beginning using the default message formatter with the following properties:
+
   print.key=true
   print.value=true
   key.deserializer=org.apache.kafka.common.serialization.StringDeserializer
