@@ -9,7 +9,7 @@ We need to create the Kafka cluster in order to proceed with creating our first 
 Here are the instructions for starting the Kafka cluster:
 
 ### Use Docker Compose to build the Kafka Cluster.
-cd content-kafka-deep-dive
+cd kafka_binaries
 docker-compose up -d --build
 
 ### Install Java.
